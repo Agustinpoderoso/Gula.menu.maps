@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Gula – Carta</title>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1c1713;--card:#2a221b;--ink:#f6ead6;--mute:#b9a98f;--gold:#f0b73e;--red:#d9442b;--line:#4a3b2c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{--bg:#fbf3e2;--card:#fff;--ink:#2b2018;--mute:#7a6a55;--gold:#b97a00;--red:#c2371f;--line:#e6d5b5}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]):not([data-theme="light"]){--bg:#fbf3e2;--card:#fff;--ink:#2b2018;--mute:#7a6a55;--gold:#b97a00;--red:#c2371f;--line:#e6d5b5}}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 56px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;line-height:1.4}
+header{text-align:center;padding:44px 20px 28px;background:radial-gradient(ellipse at top,#6b2a14 0%,transparent 70%)}
+.logo{font-family:'Alfa Slab One',Georgia,serif;font-size:clamp(64px,22vw,120px);margin:0;line-height:.9;color:var(--gold);letter-spacing:-2px}
+.tag{margin:10px 0 0;font-size:18px;font-weight:700}
+.since{color:var(--mute);margin:4px 0 18px}
+.cta{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:8px;overflow-x:auto;padding:10px 12px}
+nav a{flex:none;color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+nav a:focus-visible,.cta:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+main{max-width:760px;margin:0 auto;padding:8px 14px 40px}
+section{margin-top:34px}
+h2{font-family:'Alfa Slab One',Georgia,serif;font-weight:400;font-size:30px;margin:0 0 4px;color:var(--gold)}
+.sub{color:var(--mute);margin:0 0 12px;font-size:14px}
+.promo{background:linear-gradient(135deg,var(--red),#8e2410);color:#fff;border-radius:18px;padding:16px}
+.promo h2{color:#fff}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.promo .row{border-color:rgba(255,255,255,.35)}
+.row:last-child{border-bottom:0}
+.n{font-weight:700}
+.d{display:block;font-weight:400;font-size:13px;color:var(--mute)}
+.promo .d{color:#ffe3d6}
+.p{font-weight:700;font-size:18px;color:var(--gold);white-space:nowrap}
+.promo .p{color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 16px}
+.cols{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:620px){.cols{grid-template-columns:1fr 1fr}}
+.card h3{margin:12px 0 0;font-size:16px}
+.hd{display:flex;justify-content:flex-end;gap:14px;font-size:12px;color:var(--mute);padding-top:10px}
+.hd span{min-width:64px;text-align:right}
+.two{display:flex;gap:14px}
+.two b{min-width:64px;text-align:right;color:var(--gold)}
+.note{font-size:13px;color:var(--mute);margin:8px 2px 0}
+footer{text-align:center;padding:30px 20px 50px;border-top:1px solid var(--line)}
+footer .logo{font-size:44px}
+footer p{margin:8px 0}
+.tip{font-size:12px;color:var(--mute)}
+</style>
+</head>
+<body>
+<header>
+<h1 class="logo">la gula</h1>
+<p class="tag">Rico y abundante</p>
+<p class="since">Rotisería · desde 2017</p>
+<a class="cta" href="https://wa.me/5492234976998">Pedí por WhatsApp</a>
+</header>
+<nav>
+<a href="#promos">🔥 Promos</a><a href="#pizzas">🍕 Pizzas</a><a href="#empanadas">🥟 Empanadas</a><a href="#hamb">🍔 Hamburguesas</a><a href="#mila">🥩 Milanesas</a><a href="#pollo">🍗 Pollo</a><a href="#papas">🍟 Papas</a><a href="#tartas">🥧 Tartas</a><a href="#bebidas">🥤 Bebidas</a>
+</nav>
+<main>
+
+<section id="promos"><div class="promo">
+<h2>Promos para compartir</h2>
+<div class="row"><span class="n">1 muzza + 6 empanadas</span><span class="p">$30.000</span></div>
+<div class="row"><span class="n">1 muzza + 12 empanadas</span><span class="p">$40.000</span></div>
+<div class="row"><span class="n">1 muzza + 1 especial</span><span class="p">$30.000</span></div>
+<div class="row"><span class="n">Pizza de jamón + napolitana</span><span class="p">$30.000</span></div>
+<div class="row"><span class="n">3 muzzas</span><span class="p">$39.000</span></div>
+<div class="row"><span class="n">1 muzza + 1 especial + 1 calabresa</span><span class="p">$45.000</span></div>
+<div class="row"><span class="n">5 muzzas</span><span class="p">$65.000</span></div>
+<div class="row"><span class="n">2 docenas de empanadas</span><span class="p">$55.000</span></div>
+<div class="row"><span class="n">2 docenas de empanadas + 2 muzzas</span><span class="p">$80.000</span></div>
+</div></section>
+
+<section id="pizzas"><h2>Pizzas 🍕</h2>
+<div class="card">
+<div class="row"><span class="n">Muzzarella</span><span class="p">$14.000</span></div>
+<div class="row"><span class="n">Doble muzza</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Jamón</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Fugazzeta</span><span class="p">$17.000</span></div>
+<div class="row"><span class="n">Especial · Napolitana · Capresse · Calabresa</span><span class="p">$18.000</span></div>
+<div class="row"><span class="n">Jamón y roquefort · Primavera · Jamón y morrón · Panceta</span><span class="p">$18.000</span></div>
+<div class="row"><span class="n">Gula <span class="d">La de la casa</span></span><span class="p">$22.000</span></div>
+</div>
+<h2 style="font-size:22px;margin-top:20px">Calzone</h2>
+<div class="card">
+<div class="row"><span class="n">Jamón y queso</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Verdura <span class="d">Acelga, cebolla, huevo y muzza</span></span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Capresse <span class="d">Jamón, queso, tomate y albahaca</span></span><span class="p">$18.000</span></div>
+<div class="row"><span class="n">Napolitano <span class="d">Jamón, queso, tomate y morrón</span></span><span class="p">$18.000</span></div>
+</div></section>
+
+<section id="empanadas"><h2>Empanadas 🥟</h2>
+<div class="hd"><span>Unidad</span><span>½ docena</span><span>Docena</span></div>
+<div class="card">
+<h3>Especiales</h3>
+<p class="d" style="margin:2px 0 8px">Carne cortada a cuchillo · Capresse · Panceta y verdeo · Calabresa · Roquefort y muzzarella · Cebolla y muza</p>
+<div class="row"><span class="n">Precio</span><span class="two"><b>$3.500</b><b>$18.000</b><b>$32.000</b></span></div>
+<h3>Clásicas</h3>
+<p class="d" style="margin:2px 0 8px">Carne · Pollo · Verdura · Jamón y queso</p>
+<div class="row"><span class="n">Precio</span><span class="two"><b>$3.000</b><b>$15.000</b><b>$29.000</b></span></div>
+</div></section>
+
+<section id="hamb"><h2>Hamburguesas 🍔</h2>
+<p class="sub">Todas con doble carne. Con papas: +$7.000</p>
+<div class="card">
+<div class="row"><span class="n">Simple</span><span class="p">$11.000</span></div>
+<div class="row"><span class="n">Con cheddar <span class="d">Cheddar fundido</span></span><span class="p">$14.000</span></div>
+<div class="row"><span class="n">Completa <span class="d">Lechuga, tomate, huevo, jamón y queso</span></span><span class="p">$14.000</span></div>
+<div class="row"><span class="n">Con jamón, queso y huevo</span><span class="p">$14.000</span></div>
+<div class="row"><span class="n">Con panceta y cheddar</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Con cebolla caramelizada</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Hamburlucho <span class="d">Con fritas. Jamón, queso, panceta y huevo</span></span><span class="p">$20.000</span></div>
+</div>
+<p class="note">Elegí tu pan: de papa, con queso gratinado, de batata o brioche.</p></section>
+
+<section id="mila"><h2>Milanesas 🥩</h2>
+<div class="card">
+<div class="row"><span class="n">Simple con papas · puré · ensalada</span><span class="p">$16.000</span></div>
+<div class="row"><span class="n">Simple con omelette</span><span class="p">$18.000</span></div>
+<div class="row"><span class="n">A caballo con huevos</span><span class="p">$20.000</span></div>
+<div class="row"><span class="n">Napolitana para uno</span><span class="p">$20.000</span></div>
+<div class="row"><span class="n">Napolitana para dos</span><span class="p">$32.000</span></div>
+<div class="row"><span class="n">Napolitana para tres</span><span class="p">$39.000</span></div>
+</div></section>
+
+<section id="pollo"><h2>Pollo 🍗</h2>
+<div class="card">
+<div class="row"><span class="n">Pollo entero <span class="d">Con fritas o ensalada. Para compartir entre 4</span></span><span class="p">$35.000</span></div>
+<div class="row"><span class="n">Medio pollo <span class="d">Con fritas o ensalada</span></span><span class="p">$18.000</span></div>
+</div>
+<p class="note">Con chimichurri o criolla.</p></section>
+
+<section id="papas"><h2>Papas y tortillas 🍟</h2>
+<div class="hd"><span>Mediana</span><span>Grande</span></div>
+<div class="card">
+<div class="row"><span class="n">Papas simples</span><span class="two"><b>$10.000</b><b>$16.000</b></span></div>
+<div class="row"><span class="n">Con cheddar</span><span class="two"><b>$14.000</b><b>$19.000</b></span></div>
+<div class="row"><span class="n">Panceta y cheddar</span><span class="two"><b>$17.000</b><b>$22.000</b></span></div>
+<div class="row"><span class="n">Panceta y verdeo</span><span class="two"><b>$17.000</b><b>$22.000</b></span></div>
+<div class="row"><span class="n">Panceta, cheddar y verdeo</span><span class="two"><b>$18.000</b><b>$23.000</b></span></div>
+</div>
+<h2 style="font-size:22px;margin-top:20px">Tortillas de papa</h2>
+<div class="hd"><span>Chica</span><span>Grande</span></div>
+<div class="card">
+<div class="row"><span class="n">Simple</span><span class="two"><b>$14.000</b><b>$18.000</b></span></div>
+<div class="row"><span class="n">Española</span><span class="two"><b>$18.000</b><b>$24.000</b></span></div>
+<div class="row"><span class="n">Rellena de jamón y queso</span><span class="two"><b>$18.000</b><b>$22.000</b></span></div>
+<div class="row"><span class="n">Con cebolla</span><span class="two"><b>$17.000</b><b>$20.000</b></span></div>
+<div class="row"><span class="n">Con cebolla y morrón</span><span class="two"><b>$18.000</b><b>$21.000</b></span></div>
+</div></section>
+
+<section id="tartas"><h2>Tartas 🥧</h2>
+<div class="hd"><span>Chica</span><span>Media</span><span>Entera</span></div>
+<div class="card">
+<div class="row"><span class="n">Jamón y queso</span><span class="two"><b>$10.000</b><b>$12.000</b><b>$22.000</b></span></div>
+<div class="row"><span class="n">Verdura <span class="d">Acelga, cebolla, huevo y muzza</span></span><span class="two"><b>$10.000</b><b>$12.000</b><b>$22.000</b></span></div>
+<div class="row"><span class="n">Capresse</span><span class="two"><b>$12.000</b><b>$14.000</b><b>$24.000</b></span></div>
+<div class="row"><span class="n">Napolitana</span><span class="two"><b>$12.000</b><b>$14.000</b><b>$24.000</b></span></div>
+</div></section>
+
+<section id="bebidas"><h2>Bebidas 🥤</h2>
+<div class="card">
+<div class="row"><span class="n">Coca-Cola · Fanta · Sprite 1,5 L</span><span class="p">$5.000</span></div>
+<div class="row"><span class="n">Coca-Cola · Fanta · Sprite 2,25 L</span><span class="p">$6.500</span></div>
+<div class="row"><span class="n">Coca-Cola 500 ml</span><span class="p">$2.800</span></div>
+</div></section>
+
+</main>
+<footer>
+<p class="logo">la gula</p>
+<p>Pedidos por WhatsApp: <b>2234 97-6998</b></p>
+<p>Instagram: <b>@lagularotiseria</b></p>
+<a class="cta" href="https://wa.me/5492234976998">Hacé tu pedido</a>
+<p class="tip">Precios sujetos a cambios.</p>
+</footer>
+</body>
+</html>
